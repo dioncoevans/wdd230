@@ -1,0 +1,15 @@
+grid-container{
+    display: grid;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    align-content: left;
+    margin-right: 5;
+    padding: 10px;
+}
+
+/*main{
+    display: flex;
+}*/

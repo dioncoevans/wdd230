@@ -1,4 +1,39 @@
+
+grid-container{
+display: grid;
+}
+
 main {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr;
 }
+
+.design-header{
+    
+    color: olive;
+   text-align: center;
+    
+}
+
+.sect1{
+    grid-column:1/2;
+}
+.sect2{
+    grid-column:2/3;
+}
+.sect3{
+    grid-column:3/4;
+}
+
+/*default or small css*/
+/*h2{color: blue; margin:0; border-bottom:1px dashed #999;}*/
+
+/*'medium' media query only*/
+@media only screen and (min-width: 32.5em) {
+    /*h2{color:red;}*/
+  }
+  
+  /*'large' media query only*/
+  @media (min-width: 64em) {
+    /*h2{color:green;}*/
+  }
