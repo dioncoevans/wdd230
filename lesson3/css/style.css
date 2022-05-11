@@ -6,14 +6,13 @@ grid-container{
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap");
-@import url("https://coolors.co/e7fa00-22333b-6c91bf-ff3c38-c3b299")
+@import url("https://coolors.co/e7fa00-22333b-6c91bf-ff3c38-c3b299");
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #e7fa00;
+  --primary-color: #6c91bf;
   --secondary-color: #22333b;
-  --accent1-color: #6c91bf;
-  --accent2-color: #ff3c38;
-  --accent3-color: #c3b299;
+  --accent1-color: #c3b299;
+  --accent2-color: #EECA49;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Lora", serif;
@@ -24,14 +23,14 @@ Fonts are separated by a | */
   --headline-color-on-color: #White; /* headlines on a colored background */
   --paragraph-color-on-white: #3fa34d; /* paragraph text on a white background */
   --paragraph-color-on-color: #FFFFFF; /* paragraph text on a colored background */
-  --text-background-color: #2a9134;
+  --text-background-color: #22333b;
   --nav-link-color: #396E94;
   --nav-background-color: #E7C24F;
   --nav-hover-link-color: #E7C24F;
   --nav-hover-background-color: #396E94;
 }
 
-/*  Look around below...but DON'T CHANGE ANYTHING! */
+
 html {
   background-color: var(--primary-color);
 }
@@ -131,6 +130,7 @@ nav a:hover {
     ". . . top . ."
     ". left left right right ."
     "page2 page2 . . page3 page3";
+  color: #EECA49;  
 }
 .sitemap > div {
   text-align: center;
