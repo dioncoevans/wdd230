@@ -8,20 +8,20 @@ Fonts are separated by a | */
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap");
 @import url("https://coolors.co/e7fa00-22333b-6c91bf-ff3c38-c3b299");
 :root {
-  /* change the values below to your colors from your palette */
+  /* Show values from your colors from your palette */
   --primary-color: #6c91bf;
   --secondary-color: #22333b;
   --accent1-color: #c3b299;
   --accent2-color: #EECA49;
 
-  /* change the values below to your chosen font(s) */
+  /* Display your chosen font(s) */
   --heading-font: "Lora", serif;
   --paragraph-font: "Lato", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #black; /* headlines on a white background */
-  --headline-color-on-color: #White; /* headlines on a colored background */
-  --paragraph-color-on-white: #3fa34d; /* paragraph text on a white background */
+  --headline-color-on-white: #22333b; /* headlines on a white background */
+  --headline-color-on-color: #FFFFFF; /* headlines on a colored background */
+  --paragraph-color-on-white: #22333b; /* paragraph text on a white background */
   --paragraph-color-on-color: #FFFFFF; /* paragraph text on a colored background */
   --text-background-color: #22333b;
   --nav-link-color: #396E94;
@@ -42,6 +42,7 @@ body {
 }
 img {
   max-width: 100%;
+  
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: "Lora", serif;
@@ -119,7 +120,7 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
 }
 
-.sitemap {
+/*.sitemap {
   display: grid;
   justify-content: center;
 
@@ -166,7 +167,7 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
-}
+}*/
 
 
 .logo{
@@ -175,6 +176,7 @@ nav a:hover {
     align-content: left;
     margin-right: 5;
     padding: 10px;
+    background-color:#c3b299;
 }
 
 /*main{
