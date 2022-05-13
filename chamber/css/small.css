@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap");
+@import url("https://coolors.co/e7fa00-22333b-6c91bf-ff3c38-c3b299");
+
+:root {
+    /* Show values from your colors from your palette */
+    --primary-color: #396E94;
+    --secondary-color: #22333b;
+    --accent1-color: #c3b299;
+    --accent2-color: #EECA49;
+  
+    /* Display your chosen font(s) */
+    --heading-font: "Lora", serif;
+    --paragraph-font: "Lato", sans-serif;
+  
+   
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #22333b; /* headlines on a white background */
+    --headline-color-on-color: #FFFFFF; /* headlines on a colored background */
+    --paragraph-color-on-white: #22333b; /* paragraph text on a white background */
+    --paragraph-color-on-color: #22333b; /* paragraph text on a colored background */
+    --text-background-color: #22333b;
+    --nav-link-color: #6c91bf;
+    --nav-background-color: #E7C24F;
+    --nav-hover-link-color: #E7C24F;
+    --nav-hover-background-color: #6c91bf;
+    --footer-background-color:#22333b;
+  }
+  
+  
+  
+  html {
+    background-color: var(--secondary-color);
+  
+  }
+  
+  
+  body {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: var(--accent1-color);;
+    padding: 1em;
+  }
+  
+  
+  
+  .bottom {
+  
+    background-color: var(--footer-background-color);; 
+  
+  }
+  footer{
+      
+      color: #6c91bf;
+      text-align: center;
+      
+  }
+  
+  
+  h1{
+      color: #396E94;
+      margin: 50px;
+  }
+  header {
+      align-items: center;
+      display: grid;
+      grid-template-columns: 150px auto;
+      background-color: #eeca49;
+  }
+  
+  /*header{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 150px auto 150px ;
+    background:  #fff;
+    border-bottom: 5px double;
+    border-color: #e7c24f;
+  } */
+  
+  nav ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      /*display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;*/
+  
+  }
+
+  .logo {
+      max-width: 150px;
+      border: 10px solid  #c3b299;
+      margin: 15px;
+  }
+
+  .footer-logo {
+    max-width: 150px;
+    border: 10px solid  #c3b299;
+    margin: 15px;
+  }
+   
+  .social-1 {
+      max-width: 100px;
+      max-height: 100px;
+  }
+  
+  /*Style for twitter icon*/
+  .st0 {
+   display: none;
+  }
+  
+  .st1 {
+     fill: none;
+     stroke: #396E94;
+     stroke-width: 0.7;
+     stroke-linecap: round;
+     stroke-linejoin: round;
+     stroke-miterlimit: 10;
+  }
+  
+  .st2 {
+   fill: #396E94;
+  }
+              
+  
+  .social-3 {
+    max-width: 5px;
+    max-height: 5px;
+  }
+  /*div.social-1, .social-3{
+    position: relative;
+    top: 30px;
+    right: 30px;
+  }*/
+  .placeholder-box {
+    background-color: #c3b299;
+    height: 150px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #22333b;
+
+  }
+  main {
+    color: #22333b;
+    background-color: #ffffff;
+
+  }
+
+  .join{
+      display: none;
+  }
+/*Use inth child, Auto to fit all*/
+  .spotlight{
+      height: auto;
+  }
+
+  .spot3{
+      display: none;
+  }
+/*body{
+    background-color: green;
+}*/
