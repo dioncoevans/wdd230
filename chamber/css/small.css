@@ -57,14 +57,14 @@
   
   
   h1{
-      color: #396E94;
+      color: #c3b299;
       margin: 50px;
   }
   header {
       align-items: center;
       display: grid;
       grid-template-columns: 150px auto;
-      background-color: #eeca49;
+      background-color: #22333b;
   }
   
   /*header{
@@ -75,14 +75,26 @@
     border-bottom: 5px double;
     border-color: #e7c24f;
   } */
+  nav button{
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color:#396E94;
+  }
+  nav {
+    nav-background-color: #396E94;
+  }
   
   nav ul {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+      
       list-style: none;
       padding: 0;
       margin: 0;
-      text-align: center;
+      display: none;
+
+  }   
+      
       /*display:grid;
     grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
     list-style: none;
@@ -90,7 +102,25 @@
     margin: 0;
     text-align: center;*/
   
+  nav ul li a{
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color:#396E94;
+    border-top: 1px solid rgba(61, 108, 141, 0.5);
   }
+
+    nav ul li.active a{
+    background-color:  rgba(61, 108, 141, 0.2);
+    color: #fffffF;
+  }
+
+  nav ul li a:hover{
+    background-color: rgba(61, 108, 141, 0.5);
+  }
+
+  
+  nav ul.open{display: block;}
 
   .logo {
       max-width: 150px;
@@ -131,6 +161,12 @@
   .social-3 {
     max-width: 5px;
     max-height: 5px;
+  }
+
+  #currentDate{
+    background-color: #c3b299;
+    color: #396E94;
+    /*max-width: 100%;*/
   }
   /*div.social-1, .social-3{
     position: relative;

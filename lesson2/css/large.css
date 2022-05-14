@@ -1,0 +1,32 @@
+/*'large' media query only*/
+@media (min-width: 64em) {
+    /*h2{color:green;}*/
+
+grid-container{
+display: grid;
+}
+
+main {
+    display: flex;
+    grid-template-columns: 1fr, 1fr, 1fr;
+}
+
+.design-header{
+    
+    color: olive;
+   text-align: center;
+    
+}
+
+.sect1{
+    grid-column:1/2;
+}
+.sect2{
+    grid-column:2/3;
+}
+.sect3{
+    grid-column:3/4;
+}
+ 
+  
+}

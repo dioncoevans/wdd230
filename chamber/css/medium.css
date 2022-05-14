@@ -1,11 +1,21 @@
 /*@media screen and (min-width: 480px)*/
 
-@media screen and (min-width: 480px) {
-    
-/*body{
+@media screen and (min-width: 580px) {
+  
+  
+  /*nav ul{
+      display: flex;
+      margin-left: 2vw;
+      border-left: 1px solid rgba(61, 108, 141, 0.5);
+  }*/
+  nav ul{
+      display: none;
+}
 
-    background-color: pink;
-}*/  
+  nav ul li a{
+      border: none;
+      border-right: 1px solid rgba(61, 108, 141, 0.5);
+  }
 
 .join{
     display: block;

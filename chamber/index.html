@@ -17,8 +17,12 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <!--defer tells  the script to wait until the content is loaded -->
+    <script src="script/currentDate.js" defer></script>
+    <script src="script/toggleMenu.js" defer></script>
 </head>
-
+<!--Body will include the header, main, and the footer.-->
+<body>
 <header>
     <picture>
         <img class="logo" src="images/michmilogo.png" alt="chamber logo">
@@ -88,23 +92,26 @@
             <g />
         </svg>
     </div>
-
+<div>
+    
     <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
+        <button id="hamburgerBtn">&#9776;</button>
+        <ul id="primaryNav">
+            <li class="active"><a href="#">Home</a></li>
             <li><a href="#">Discover</a></li>
             <li><a href="#">Join</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
-
+</div>
+<br>
     <h3>
          <span id="currentDate"></span>
     </h3>
 
 </header>
 
-<body>
+
     <main>
         <div class="placeholder-box hero">Hero</div>
         <article class="placeholder-box event">Event</article>
@@ -117,55 +124,56 @@
             <div class="placeholder-box spot3">Spotlight 3</div>
         </div>
     </main>
-</body>
-
-<footer class="bottom">
-    <div>
-        <picture>
-            <img class="footer-logo" src="images/michmilogo.png" alt="chamber logo">
-        </picture>
-    </div>
-
-    <div class="contact">
-        <p><b>Michin Michigan Chamber of Commerce</b>
-            <br>
-            15555 7 Mile Rd
-            <br>
-            Detroit, Michigan. 48205
-
-        </p>
-
-        <p>
-            info@michinmichigan.net
-        </p>
-
-        <p>
-            (313)372-9793
-        </p>
-
-
-    </div>
-
-    <div class="location">
-        <a href="https://www.mapquest.com/?msclkid=1ba53f02d15211ec832bc3600da7fcc6" alt="link to maps">Location Map</a>
-    </div>
-    <br>
-
-    <section>
-        <div class="copyright">
-            <p>
-                &copy; 2022 Michin Michigan Chamber
-            </p>
-            <p>
-                Dionco Evans
-            </p>
-            <p>
-                WDD 230 Project
-            </p>
-
-            <script src="js/lastMod.js"></script>
+    <footer class="bottom">
+        <div>
+            <picture>
+                <img class="footer-logo" src="images/michmilogo.png" alt="chamber logo">
+            </picture>
         </div>
-    </section>
+    
+        <div class="contact">
+            <p><b>Michin Michigan Chamber of Commerce</b>
+                <br>
+                15555 7 Mile Rd
+                <br>
+                Detroit, Michigan. 48205
+    
+            </p>
+    
+            <p>
+                info@michinmichigan.net
+            </p>
+    
+            <p>
+                (313)372-9793
+            </p>
+    
+    
+        </div>
+    
+        <div class="location">
+            <a href="https://www.mapquest.com/?msclkid=1ba53f02d15211ec832bc3600da7fcc6"  alt="link to maps">&#10008; Location Map</a>
+        </div>
+        <br>
+    
+        <section>
+            <div class="copyright">
+                <p>
+                    &copy; 2022 Michin Michigan Chamber
+                </p>
+                <p>
+                    Dionco Evans
+                </p>
+                <p>
+                    WDD 230 Project
+                </p>
+    
+                
+            </div>
+        </section>
+    
+    
+    </footer>
+</body>
+</html>
 
-
-</footer>
