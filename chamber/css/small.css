@@ -50,7 +50,7 @@
   }
   footer{
       
-      color: #6c91bf;
+      color: #ffffff;
       text-align: center;
       
   }
@@ -164,8 +164,8 @@
   }
 
   #currentDate{
-    background-color: #c3b299;
-    color: #396E94;
+    background-color: #396E94;
+    color: #22333b;
     /*max-width: 100%;*/
   }
   /*div.social-1, .social-3{
