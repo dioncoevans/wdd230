@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap");
 @import url("https://coolors.co/e7fa00-22333b-6c91bf-ff3c38-c3b299");
+grid-container{
+display: grid;
+}
 
 :root {
     /* Show values from your colors from your palette */
@@ -25,7 +28,6 @@
     --nav-hover-background-color: #6c91bf;
     --footer-background-color:#22333b;
   }
-  
   
   
   html {
@@ -57,13 +59,13 @@
   
   
   h1{
-      color: #c3b299;
-      margin: 50px;
+      color: #396E94;
+      /*margin: 50px;*/
   }
   header {
       align-items: center;
       display: grid;
-      grid-template-columns: 150px auto;
+      grid-template-columns: 150px auto 150 auto 150 auto;
       background-color: #22333b;
   }
   
@@ -124,7 +126,7 @@
 
   .logo {
       max-width: 150px;
-      border: 10px solid  #c3b299;
+      border: 5px solid  #396E94;
       margin: 15px;
   }
 
@@ -134,7 +136,8 @@
     margin: 15px;
   }
    
-  .social-1 {
+  .social
+  {
       max-width: 100px;
       max-height: 100px;
   }
@@ -158,10 +161,10 @@
   }
               
   
-  .social-3 {
+  /*.social-3 {
     max-width: 5px;
     max-height: 5px;
-  }
+  }*/
 
   #currentDate{
     background-color: #396E94;
