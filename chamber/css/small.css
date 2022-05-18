@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap");
 @import url("https://coolors.co/e7fa00-22333b-6c91bf-ff3c38-c3b299");
-grid-container{
+.grid-container{
 display: grid;
+/*grid-template-columns: auto auto auto auto;*/
 }
 
 :root {
@@ -50,39 +51,46 @@ display: grid;
     background-color: var(--footer-background-color);; 
   
   }
-  footer{
-      
-      color: #ffffff;
-      text-align: center;
-      
-  }
   
   
   h1{
       color: #396E94;
       /*margin: 50px;*/
+      
   }
-  header {
+
+  h2{
+    font-size: large;
+    color: #396E94;
+    padding: 0px;
+    margin-top: 10px;
+  }
+  /*header {
       align-items: center;
       display: grid;
       grid-template-columns: 150px auto 150 auto 150 auto;
+      grid-template-rows: 150 auto;
       background-color: #22333b;
-  }
+  }*/
   
-  /*header{
+  header{
     align-items: center;
     display: grid;
-    grid-template-columns: 150px auto 150px ;
-    background:  #fff;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 150px 150px;
+    background:  #22333b;
     border-bottom: 5px double;
-    border-color: #e7c24f;
-  } */
+    border-color: #6c91bf;
+  } 
   nav button{
+    display: grid;
     margin: .2rem 2vw;
     background-color: transparent;
     border: none;
     font-size: 2rem;
     color:#396E94;
+    grid-column: 5/6;
+    padding: 10;
   }
   nav {
     nav-background-color: #396E94;
@@ -97,12 +105,6 @@ display: grid;
 
   }   
       
-      /*display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;*/
   
   nav ul li a{
     display: block;
@@ -125,57 +127,35 @@ display: grid;
   nav ul.open{display: block;}
 
   .logo {
-      max-width: 150px;
+      max-width: 120px;
       border: 5px solid  #396E94;
       margin: 15px;
   }
 
-  .footer-logo {
-    max-width: 150px;
-    border: 10px solid  #c3b299;
-    margin: 15px;
-  }
-   
+  
   .social
   {
-      max-width: 100px;
-      max-height: 100px;
+      width: 50px;
+      height: 50px;
+      color:#396E94;
+      fill: #396E94;
   }
   
-  /*Style for twitter icon*/
-  .st0 {
-   display: none;
-  }
-  
-  .st1 {
-     fill: none;
-     stroke: #396E94;
-     stroke-width: 0.7;
-     stroke-linecap: round;
-     stroke-linejoin: round;
-     stroke-miterlimit: 10;
-  }
-  
-  .st2 {
-   fill: #396E94;
-  }
-              
-  
-  /*.social-3 {
-    max-width: 5px;
-    max-height: 5px;
-  }*/
 
+  h3{
+    grid-column: 1/5;
+    grid-row: 2;
+  }
   #currentDate{
     background-color: #396E94;
     color: #22333b;
     /*max-width: 100%;*/
   }
-  /*div.social-1, .social-3{
+  div.social{
     position: relative;
-    top: 30px;
-    right: 30px;
-  }*/
+    top: 5px;
+    right: 5px;
+  }
   .placeholder-box {
     background-color: #c3b299;
     height: 150px;
@@ -201,6 +181,17 @@ display: grid;
   .spot3{
       display: none;
   }
-/*body{
-    background-color: green;
-}*/
+
+
+.footer-logo {
+  max-width: 150px;
+  border: 10px solid  #c3b299;
+  margin: 15px;
+}
+
+footer{
+      
+  color: #ffffff;
+  text-align: center;
+  
+}
