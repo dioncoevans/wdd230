@@ -74,16 +74,18 @@
 
 
     <main>
-        <div class="placeholder-box hero">Hero</div>
-        <article class="placeholder-box event">Event</article>
-        <div class="placeholder-box weather">Weather</div>
-        <div class="placeholder-box new-release">News-Release</div>
-        <div class="placeholder-box join">Join</div>
-        <div class="placeholder-box spotlight">
+        
+        <div class="placeholder-box" id="hero">Hero</div>
+        <article class="placeholder-box" id="event">Event</article>
+        <div class="placeholder-box" id="weather">Weather</div>
+        <div class="placeholder-box" id="news">News-Release</div>
+        <div class="placeholder-box" id="join">Join</div>
+        <div class="placeholder-box" id="spotlightBox">Spotlight Box 
             <div class=" placeholder-box spot1">Spotlight 1</div>
             <div class="placeholder-box spot2">Spotlight 2</div>
             <div class="placeholder-box spot3">Spotlight 3</div>
-        </div>
+        </div>   
+        
     </main>
     <footer class="bottom">
         <div>
@@ -140,5 +142,55 @@
 
     </footer>
 </body>
+
+<!--
+    <style>
+.item1 { grid-area: header; }
+.item2 { grid-area: hero; }
+.item3 { grid-area: event; }
+.item4 { grid-area: weather; }
+.item5 { grid-area: news; }
+.item6 { grid-area: join; }
+.item7 { grid-area: spotlightBox; }
+.item8 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header '
+    'event hero hero hero spotlightBox'
+    'weather hero hero hero spotlightBox'
+    'join news news news spotlightBox'
+    'footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>Grid Layout</h1>
+
+<p>This grid layout contains six columns and three rows:</p>
+
+<div class="grid-container">
+  <div class="item1">Header</div>
+  <div class="item2">Hero</div>
+  <div class="item3">Event</div>  
+  <div class="item4">Weather</div>
+  <div class="item5">News</div>
+  <div class="item6">Join</div>  
+  <div class="item7">Spotlight Box</div>
+  <div class="item8">Footer</div>
+</div>
+-->
 
 </html>

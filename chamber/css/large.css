@@ -17,4 +17,25 @@ nav ul#primaryNav{
   border-left: 1px solid rgba(61, 108, 141, 0.5);
 }
 
+main{
+  display: grid;
+  grid-template-areas:
+    /*'header header header header header '*/
+    'event hero hero hero spotlightBox'
+    'weather hero hero hero spotlightBox'
+    'join news news news spotlightBox'
+    /*'footer footer footer footer footer'*/;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+/*.item1 { grid-area: header; }*/
+#hero { grid-area: hero; }
+#event { grid-area: event; }
+#weather { grid-area: weather; }
+#news { grid-area: news; }
+#join { grid-area: join; }
+#spotlightBox { grid-area: spotlightBox; }
+/*.item8 { grid-area: footer; }*/
+
 }
