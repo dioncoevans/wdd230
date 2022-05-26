@@ -30,12 +30,19 @@ main{
   padding: 10px;
 }
 /*.item1 { grid-area: header; }*/
-#hero { grid-area: hero; }
+#hero { grid-area: hero;
+    height: auto;
+    max-width: 1; }
 #event { grid-area: event; }
 #weather { grid-area: weather; }
 #news { grid-area: news; }
 #join { grid-area: join; }
-#spotlightBox { grid-area: spotlightBox; }
+#spotlightBox { grid-area: spotlightBox;
+height: auto; }
 /*.item8 { grid-area: footer; }*/
+
+.placeholder-box{
+  height: auto;
+}
 
 }

@@ -22,14 +22,15 @@
     <script src="script/currentDate.js" defer></script>
     <script src="script/toggleMenu.js" defer></script>
     <script src="script/lastMod.js" defer></script>
-    
+    <script src="script/windChill.js" defer></script>
+
 </head>
 <!--Body will include the header, main, and the footer.-->
 
 <body>
     <header>
         <picture>
-            <img class="logo" src="images/michmilogo.png" alt="chamber logo">
+            <img class="logo" src="images/michin.png" alt="chamber logo">
         </picture>
         <div class="entitiy">
             <h1 class="companyName">
@@ -44,7 +45,7 @@
                 <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <path
                     d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
-                    https://www.twitter.com</svg>
+                https://www.twitter.com</svg>
         </div>
         <div class="social">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -74,23 +75,45 @@
 
 
     <main>
-        
-        <div class="placeholder-box" id="hero">Hero</div>
-        <article class="placeholder-box" id="event">Event</article>
-        <div class="placeholder-box" id="weather">Weather</div>
-        <div class="placeholder-box" id="news">News-Release</div>
+
+        <div class="placeholder-box" id="hero">Hero
+            <img src="images/heroimg.jpg" alt="hero picture with CTA button">
+            <!--https://www.brookwalsh.com/thumbs/416x284/uploads/mackinac-island-michigan.jpeg  -->
+                
+        </div>
+        <article class="placeholder-box" id="event">
+            Event
+
+        </article>
+        <div class="placeholder-box" id="weather">
+            <h1>Weather</h1>
+            <img src="images/weather.png" alt ="section icon">
+            <h1><span id="degrees">50</span></h1>
+            <h2><span id="descriptionOf"></span></h2>
+            <hr>
+            <h2>Wind Speed: <span id="windSpeed">4.8</span> mp/h</h2>
+            <h2>Wind Chill: <span id="windChill"></span></h2>
+            <!--2 cols 5 rows, Spans with ID for degrees and windspeed-->
+        </div>
+        <div class="placeholder-box" id="news">News-Release
+            <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <!--<path
+                    d="M480 32H128C110.3 32 96 46.33 96 64v336C96 408.8 88.84 416 80 416S64 408.8 64 400V96H32C14.33 96 0 110.3 0 128v288c0 35.35 28.65 64 64 64h384c35.35 0 64-28.65 64-64V64C512 46.33 497.7 32 480 32zM272 416h-96C167.2 416 160 408.8 160 400C160 391.2 167.2 384 176 384h96c8.836 0 16 7.162 16 16C288 408.8 280.8 416 272 416zM272 320h-96C167.2 320 160 312.8 160 304C160 295.2 167.2 288 176 288h96C280.8 288 288 295.2 288 304C288 312.8 280.8 320 272 320zM432 416h-96c-8.836 0-16-7.164-16-16c0-8.838 7.164-16 16-16h96c8.836 0 16 7.162 16 16C448 408.8 440.8 416 432 416zM432 320h-96C327.2 320 320 312.8 320 304C320 295.2 327.2 288 336 288h96C440.8 288 448 295.2 448 304C448 312.8 440.8 320 432 320zM448 208C448 216.8 440.8 224 432 224h-256C167.2 224 160 216.8 160 208v-96C160 103.2 167.2 96 176 96h256C440.8 96 448 103.2 448 112V208z" />
+                </svg>-->
+        </div>
         <div class="placeholder-box" id="join">Join</div>
-        <div class="placeholder-box" id="spotlightBox"> 
+        <div class="placeholder-box" id="spotlightBox">
             <div class=" placeholder-box spot1">Spotlight 1</div>
             <div class="placeholder-box spot2">Spotlight 2</div>
             <div class="placeholder-box spot3">Spotlight 3</div>
-        </div>   
-        
+        </div>
+
     </main>
     <footer class="bottom">
         <div>
             <picture>
-                <img class="footer-logo" src="images/michmilogo.png" alt="chamber logo">
+                <img class="footer-logo" src="images/michin.png" alt="chamber logo">
             </picture>
         </div>
 
@@ -118,7 +141,7 @@
             <a href="https://www.mapquest.com/?msclkid=1ba53f02d15211ec832bc3600da7fcc6" alt="link to maps">&#10008;
                 Location Map</a>
         </div>
-        <br>
+        <hr>
 
         <section>
             <div class="copyright">
@@ -132,7 +155,7 @@
                     WDD 230 Project
                 </p>
                 <p>
-                    Last Modified: <span id="lastMod"> </span> 
+                    Last Modified: <span id="lastMod"> </span>
 
                 </p>
 
@@ -143,54 +166,5 @@
     </footer>
 </body>
 
-<!--
-    <style>
-.item1 { grid-area: header; }
-.item2 { grid-area: hero; }
-.item3 { grid-area: event; }
-.item4 { grid-area: weather; }
-.item5 { grid-area: news; }
-.item6 { grid-area: join; }
-.item7 { grid-area: spotlightBox; }
-.item8 { grid-area: footer; }
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header '
-    'event hero hero hero spotlightBox'
-    'weather hero hero hero spotlightBox'
-    'join news news news spotlightBox'
-    'footer footer footer footer footer';
-  gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
-
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
-</style>
-</head>
-<body>
-
-<h1>Grid Layout</h1>
-
-<p>This grid layout contains six columns and three rows:</p>
-
-<div class="grid-container">
-  <div class="item1">Header</div>
-  <div class="item2">Hero</div>
-  <div class="item3">Event</div>  
-  <div class="item4">Weather</div>
-  <div class="item5">News</div>
-  <div class="item6">Join</div>  
-  <div class="item7">Spotlight Box</div>
-  <div class="item8">Footer</div>
-</div>
--->
 
 </html>
