@@ -30,7 +30,7 @@
 <body>
     <header>
         <picture>
-            <img class="logo" src="images/michin.png" alt="chamber logo">
+            <img class="logo" src="images/michin.webp" alt="chamber logo">
         </picture>
         <div class="entitiy">
             <h1 class="companyName">
@@ -77,9 +77,14 @@
     <main>
 
         <div class="placeholder-box" id="hero">Hero
-            <img src="images/heroimg.jpg" alt="hero picture with CTA button">
+            <picture class="responsive">
+                <source srcset="images/heroXL.jpg" media="(min-width: 1000px)">
+                <source srcset="images/heroLargejpg" media="(min-width: 800px)">
+                <source srcset="images/heroMedium.jpg" media="(min-width: 600px)">
+                <source srcset="images/heroSmall.jpg" media="(min-width: 400px)">
+                <img src="images/heroxs.jpg" alt="hero picture with CTA button">
             <!--https://www.brookwalsh.com/thumbs/416x284/uploads/mackinac-island-michigan.jpeg  -->
-                
+            </picture>    
         </div>
         <article class="placeholder-box" id="event">
             Event
@@ -88,10 +93,10 @@
         <div class="placeholder-box" id="weather">
             <h1>Weather</h1>
             <img src="images/weather.png" alt ="section icon">
-            <h1><span id="degrees">50</span></h1>
+            <h1><span id="degrees">33</span></h1>
             <h2><span id="descriptionOf"></span></h2>
             <hr>
-            <h2>Wind Speed: <span id="windSpeed">4.8</span> mp/h</h2>
+            <h2>Wind Speed: <span id="windSpeed">10.2</span> mp/h</h2>
             <h2>Wind Chill: <span id="windChill"></span></h2>
             <!--2 cols 5 rows, Spans with ID for degrees and windspeed-->
         </div>
@@ -113,7 +118,7 @@
     <footer class="bottom">
         <div>
             <picture>
-                <img class="footer-logo" src="images/michin.png" alt="chamber logo">
+                <img class="footer-logo" src="images/michin.webp" alt="chamber logo">
             </picture>
         </div>
 
