@@ -161,7 +161,7 @@ display: grid;
   }
   .placeholder-box {
     background-color: #c3b299;
-    height: 150px;
+    height: auto;
     padding: 15px;
     margin: 10px;
     border: 1px solid #22333b;

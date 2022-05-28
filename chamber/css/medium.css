@@ -17,6 +17,22 @@
       border-right: 1px solid rgba(61, 108, 141, 0.5);
   }
 
+  main{
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: repeat(auto-fit, minmax(250ps, 1fr));
+      
+      /*'news news news news'
+      'spot1 spot1 spot2 spot2'
+      'join join join join'
+      'event event weather weather';*/
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+  
+
 .join{
     display: block;
 }
