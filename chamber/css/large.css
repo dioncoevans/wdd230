@@ -43,8 +43,9 @@ height: auto; }
 .placeholder-box{
   height: auto;
 }
-.responsive{
-
+.heroimg> img{
+width: 100%;
 }
+
 
 }

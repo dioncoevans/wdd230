@@ -38,7 +38,7 @@ display: grid;
   
   
   body {
-    max-width: 960px;
+    max-width: 1080px;
     margin: 0 auto;
     background-color: var(--headline-color-on-color);
     padding: 1em;

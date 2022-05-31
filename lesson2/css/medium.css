@@ -10,18 +10,21 @@ body{
     font-size: 12px;
     line-height: 1.5;
     background-color: rgb(42,42,42);
+    
 }
-/*header, main, footer{
+header, main, footer{
+    color: #ffffff;
     margin: 1.25rem auto;
     max-width: 960px;
     min-width: 260px;
     background-color:rgb(252, 253, 245);
     text-align: center;
-}*/
+}
 
 main{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
 }
 
 .sect3{
@@ -35,13 +38,15 @@ main p{
     margin: 0.8rem;
     font-size: 0.9rem;
     text-align: justify;
+    color: #ffffff;
+    
 }
-section{
+/*section{
     margin: 0.5rem;
-    background-color:  black;
+    background-color:  #ffffff;
     border: 1px solid #aaa;
     border-radius: 3px 3px 0px 0px;
-}
+}*/
 h2{background-color: #8eac6c;}
 h3{margin: 5px 15px 10px 15px;
    background-color: #aaa; 

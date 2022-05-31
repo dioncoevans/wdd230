@@ -9,7 +9,7 @@ body{
     background-color: rgb(42,42,42);
 }
 header, main, footer{
-    color:black;
+    color: #ffffff;
     margin: 1.25rem auto;
     max-width: 960px;
     min-width: 260px;
@@ -23,6 +23,7 @@ main{
 h1{
     font-size: 1.3rem;
     color:#ffffff;
+    background-color: black;
     
 }
 main p{
@@ -32,7 +33,7 @@ main p{
 }
 section{
     margin: 0.5rem;
-    background-color: #eee;
+    background-color: black;
     border: 1px solid #aaa;
     border-radius: 3px 3px 0px 0px;
 }
