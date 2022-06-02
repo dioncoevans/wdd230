@@ -21,9 +21,9 @@ main{
   display: grid;
   grid-template-areas:
     
-    'event hero hero hero spotlightBox'
-    'weather hero hero hero spotlightBox'
-    'join news news news spotlightBox';
+    'event hero hero hero hero spotlightBox'
+    'weather hero hero hero hero spotlightBox'
+    'join news news news news spotlightBox';
   gap: 10px;
   background-color: #2196F3;
   padding: 10px;

@@ -5,6 +5,7 @@ display: grid;
 /*grid-template-columns: auto auto auto auto;*/
 }
 
+
 :root {
     /* Show values from your colors from your palette */
     --primary-color: #396E94;
