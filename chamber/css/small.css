@@ -62,7 +62,7 @@ display: grid;
 
   h2{
     font-size: large;
-    color: #396E94;
+    color: #6c91bf;
     padding: 0px;
     margin-top: 5px;
   }
@@ -162,19 +162,37 @@ display: grid;
   }
   .placeholder-box {
     background-color: #c3b299;
-    height: auto;
+    height: 100%;
     padding: 15px;
     margin: 10px;
     border: 1px solid #22333b;
 
   }
+  .heroimg{
+    padding: 0px;
+  }
+
   main {
     color: #22333b;
-    background-color: #ffffff;
+    background-color: #2196F3;
 
   }
 
-  .join{
+  #cta {
+    position: relative;
+    bottom: 50px;
+    left: 150px;
+    background-color: #2196F3;
+    color: #ffffff
+  }
+
+  #welcome {
+    position: relative;
+    top: 40px;
+    right: 0px;
+  }
+
+  #join{
       display: none;
   }
 /*Use inth child, Auto to fit all*/
