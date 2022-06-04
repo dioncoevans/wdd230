@@ -186,6 +186,10 @@ display: grid;
     color: #ffffff
   }
 
+
+
+  
+
   #welcome {
     position: relative;
     top: 40px;
@@ -195,6 +199,32 @@ display: grid;
   #join{
       display: none;
   }
+
+  .img{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.img img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+.img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+
+  body{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .norm:hover {box-shadow: 0 0 50px #333;}
+/* rounded corners - boxmodel */
+
+#gallery{
+
+}
 /*Use inth child, Auto to fit all*/
   .spotlight{
       height: auto;

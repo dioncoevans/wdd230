@@ -24,6 +24,7 @@
     <script src="script/lastMod.js" defer></script>
     <script src="script/windChill.js" defer></script>
     <script src="script/localStorage.js" defer></script>
+    <script src="lesson-7/script/lazyload.js" defer></script>
 
 </head>
 
@@ -131,19 +132,21 @@
         <div class="placeholder-box" id="gallery">
             <h1>Progressive Loading Images Activity</h1>
             <picture>
-                <img src="images/placeholderImg.jpg" data-src="http://placeimg.com/256/256/nature" alt="Picture of choice">
+                <img src="images/placeholderImg.jpg" width="300" height="400" data-src="http://placeimg.com/300/400/nature" alt="Picture of choice">
+            </picture>
+            <figure>
+                <img class="norm" src="images/placeholderImg.jpg" width="300" height="400" data-src="https://placebear.com/300/400" alt="Picture of choice">
+                <figcaption>:hover pseduo-class box-shadow</figcaption>
+            </figure>
+              
+            <picture>
+                <img src="images/placeholderImg.jpg" width="300" height="400" data-src="https://picsum.photos/300/400" alt="Picture of choice"> 
             </picture>
             <picture>
-                <img src="images/placeholderImg.jpg" data-src="https://placebear.com/256/256" alt="Picture of choice">  
+                <img src="images/placeholderImg.jpg" width="300" height="400" data-src="https://th.bing.com/th/id/OIP.gSOdKkN33mD0xAY3ZRaApAHaHa?w=200&h=200&c=7&r=0&o=5&pid=1.7" width="300" height="400" alt="Picture of choice"> 
             </picture>
             <picture>
-                <img src="images/placeholderImg.jpg" data-src="https://picsum.photos/256/256" alt="Picture of choice"> 
-            </picture>
-            <picture>
-                <img src="images/placeholderImg.jpg" data-src="https://th.bing.com/th/id/OIP.gSOdKkN33mD0xAY3ZRaApAHaHa?w=200&h=200&c=7&r=0&o=5&pid=1.7" alt="Picture of choice"> 
-            </picture>
-            <picture>
-                <img src="images/placeholderImg.jpg" data-src="https://place-puppy.com/256x256" alt="Picture of choice">
+                <img src="images/placeholderImg.jpg" width="300" height="400" data-src="https://place-puppy.com/300/400" alt="Picture of choice">
             </picture>
                 
         </div>

@@ -17,7 +17,7 @@ grid-container{
     transition: filter 0.5s;
   }
 
-  .page{
+  body{
     justify-content: center;
     align-items: center;
   }
