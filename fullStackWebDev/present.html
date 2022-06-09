@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,29 +15,27 @@
     <!--Styles-->
     <link rel="stylesheet" href="https://coolors.co/e7fa00-22333b-6c91bf-ff3c38-c3b299">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="style/small.css">
+    <link rel="stylesheet" href="style/medium.css">
+    <link rel="stylesheet" href="style/large.css">
     <!--defer tells  the script to wait until the content is loaded -->
     <script src="script/currentDate.js" defer></script>
     <script src="script/toggleMenu.js" defer></script>
     <script src="script/lastMod.js" defer></script>
     <script src="script/windChill.js" defer></script>
-    <script src="script/localStorage.js" defer></script>
-    <script src="lesson-7/script/lazyload.js" defer></script>
-
 </head>
+
 <body>
     <header>
         <picture>
             <img class="logo" src="images/michin.webp" alt="chamber logo">
         </picture>
         <div class="entitiy">
-            <h1 class="companyName">
-                Michin
+        <h1 class="companyName">
+                Full Stack
             </h1>
             <h2>
-                Chamber of Commerce
+                Web Developers
             </h2>
         </div>
         <div class="social">
@@ -60,50 +58,46 @@
             <nav>
                 <button id="hamburgerBtn">&#9776;</button>
                 <ul id="primaryNav">
-                    <li class="active"><a href="https://dioncoevans.github.io/wdd230/chamber">Home</a></li>
-                    <li><a href="https://dioncoevans.github.io/wdd230/chamber/discover.html">Discover</a></li>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Discover</a></li>
                     <li><a href="#">Join</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
-        <h3>
+        
             <span id="currentDate"></span>
-        </h3>
-
+        
     </header>
-
     <main>
-
         <div class="placeholder-box" id="hero">
-            <span><h2>Demographics</h2></span>
+            <h2><span id="welcome">Welcome to Michin</span></h2>
             <picture class="heroimg">
                 <!--<source srcset="images/heroXL.jpg" media="(min-width: 1000px)">-->
-               <!-- <source srcset="images/heroLarge.jpg" media="(min-width: 800px)">
+                <source srcset="images/heroLarge.jpg" media="(min-width: 800px)">
                 <source srcset="images/heroMedium.jpg" media="(min-width: 600px)">
                 <source srcset="images/heroSmall.jpg" media="(min-width: 400px)">
-                <img src="images/heroxs.jpg" alt="hero picture with CTA button">-->
+                <img src="https://youtube/pkdgVYehiTE" alt="Full Stack video with CTA button">
                 <!--https://www.brookwalsh.com/thumbs/416x284/uploads/mackinac-island-michigan.jpeg  -->
             </picture>
+            <button id="cta" type="button" onclick="alert('Hello')">Become Full Stack</button>
+            
         </div>
         <article class="placeholder-box" id="event">
-            <h2>Using localStorage</h2>
-        <p>This demonstration page keeps track of the total number of visits by user utilizing the localStorage option
-            of the Web Storage API.</p>
-
-        <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
-        <hr>
-        <p>🚑 Assignment Help: <strong>DateTime</strong><br>Timestamp is based upon time since “Unix epoch”
-            1970-01-01T00:00:00Z (UTC),<br>i.e., January 1, 1970.</p>
-        <p>Current Page Load Timestamp: <span class="today"></span> in milliseconds.</p>
+            <h2> 🎈 Grand Opening </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, minus ratione? Molestias repudiandae
+                accusantium a recusandae ullam illo consectetur impedit, corporis veritatis earum inventore aspernatur
+                nisi doloribus ducimus distinctio ipsa.
+            </p>
 
         </article>
         <div class="placeholder-box" id="weather">
-            <h1>Weather</h1>
+            <h2>Weather</h2>
             <img src="images/weather.png" alt="section icon">
-            <h1><span id="degrees">33</span></h1>
-            <h2><span id="descriptionOf"></span></h2>
-            <h1>Partly Cloudy</h1>
+            <h2><span id="degrees">33</span></h2>
+            <span id="descriptionOf"></span>
+            <h2>Partly Cloudy</h2>
             <hr>
             <h2>Wind Speed: <span id="windSpeed">10.2</span> mp/h</h2>
             <h2>Wind Chill: <span id="windChill"></span></h2>
@@ -123,33 +117,40 @@
         </div>
         <div class="placeholder-box" id="join">
             <h2>
-                <button class="cta"type="button" onclick="alert('Hello')">Join</button>
+                <button type="button" onclick="alert('Hello')">Join</button>
             </h2>
             <p>
                 Discover how to join the Chamber of Commerce and how it will benefit your organization today!
             </p>
         </div>
-        <div class="placeholder-box" id="gallery">
-            <h1>Progressive Loading Images Activity</h1>
-            <picture>
-                <img src="images/placeholderImg.jpg" width="300" height="400" data-src="http://placeimg.com/300/400/nature" alt="Picture of choice">
-            </picture>
-            <figure>
-                <img class="norm" src="images/placeholderImg.jpg" width="300" height="400" data-src="https://placebear.com/300/400" alt="Picture of choice">
-                <figcaption>:hover pseduo-class box-shadow</figcaption>
-            </figure>
-              
-            <picture>
-                <img src="images/placeholderImg.jpg" width="300" height="400" data-src="https://picsum.photos/300/400" alt="Picture of choice"> 
-            </picture>
-            <picture>
-                <img src="images/placeholderImg.jpg" width="300" height="400" data-src="https://th.bing.com/th/id/OIP.gSOdKkN33mD0xAY3ZRaApAHaHa?w=200&h=200&c=7&r=0&o=5&pid=1.7" width="300" height="400" alt="Picture of choice"> 
-            </picture>
-            <picture>
-                <img src="images/placeholderImg.jpg" width="300" height="400" data-src="https://place-puppy.com/300/400" alt="Picture of choice">
-            </picture>
-                
+        <div class="placeholder-box" id="spotlightBox">
+            <div class=" placeholder-box spot1" id="spot1">
+                <h3><span>Spotlight 1</span></h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam nisi ut amet quis quasi quod,
+                    ullam officia magni omnis optio! Consectetur voluptatibus eligendi non cupiditate distinctio modi
+                    soluta consequatur sunt?
+                </p>
+            </div>
+            <div class="placeholder-box spot2" id="spot2">
+                <h3><span>Spotlight 2</span></h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus adipisci, sint culpa illum
+                    laudantium repellat aut eius hic ducimus a minima sequi repellendus sit suscipit? Libero incidunt
+                    aut architecto id.
+                </p>
+            </div>
+
+            <div class="placeholder-box spot3" id="spot3">
+                <h3><span>Spotlight 3</span></h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque totam soluta eius modi
+                    tenetur nostrum molestias qui itaque natus placeat commodi harum, sunt cum maxime non vero
+                    distinctio ipsum.
+                </p>
+            </div>
         </div>
+
 
     </main>
     <footer class="bottom">
@@ -204,10 +205,6 @@
             </div>
         </section>
 
-
     </footer>
-        
-    </main>
 </body>
-
 </html>
