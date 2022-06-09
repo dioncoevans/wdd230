@@ -12,54 +12,67 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!--Style-->
+    <link rel="stylesheet" href="style/table.css">
+
+    <!--Script-->
+    <script src="script/lastMod.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <h1>ACME Wildwest</h1>
-    </header>
-
-    <thead> Period</thead>
+    <table>
+        <!--<caption>ACME Wildwest </caption>-->
+        <thead>
+            <tr>
+                <th colspan="3" scope="colgroup">ACME Wildwest</th>
+            </tr>
+            <tr>
+                <th scope="col">Period</th>
+                <th scope="col">Sales</th>
+                <th scope="col">Sales Goal</th>
+            </tr>
+        </thead>
     <tbody>
-        <li>August</li>
-        <li>September</li>
-        <li>October</li>
-        <li>November</li>
-        <li>Black Friday</li>
-        <li>December</li>
-
-    </tbody>
-    <thead> Sales</thead>
-    <tbody>
-        <li>August</li>
-        <li>September</li>
-        <li>October</li>
-        <li>November</li>
-        <li>Black Friday</li>
-        <li>December</li>
-
-
-        <thead> Sales Goal</thead>
-    <tbody>
-        <li>August</li>
-        <li>September</li>
-        <li>October</li>
-        <li>November</li>
-        <li>Black Friday</li>
-        <li>December</li>
-
-    </tbody>
-    <tfoot>
-        <p> Compiled <span id="completedDate"></span>
-            by dEvans</p>
-    </tfoot>
-    <main>
-
-    </main>
-    <footer>
-
-    </footer>
-
-</body>
+        <tr>
+			<td>August</td>
+			<td>$3,590</td>
+            <td>$3,000</td>
+		</tr>
+		<tr>
+			<td>September</td>
+			<td>$4,420</td>
+            <td>$5,000</td>
+		</tr>
+		<tr>
+			<td>October</td>
+			<td>$4,420</td>
+            <td>$5,000</td>
+		</tr>
+	    <tr>
+			<td>November</td>
+			<td>$4,870</td>
+            <td>$5,000</td>
+		</tr>
+		<tr>
+			<td scope="row">Black Friday</td>
+			<td colspan="2">$3,200</td>
+            
+		</tr>
+        <tr>
+			<td>December</td>
+			<td>$6,820</td>
+            <td>$7,500</td>
+		</tr>
+        <tfoot>
+        
+            <td colspan="3"> Compiled <span id="lastMod"></span>
+                by dEvans</td>
+                
+        </tfoot>
+    </table>
+    
+    
+    
+</tbody>
 
 </html>
