@@ -34,13 +34,25 @@ section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
 	background-color: #ccc;
+	align-items: center;
 }
 
-.grid {
+h1{
+  background-color: #555;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+ h2,p{
+	text-align: center;
+}
+
+/*.grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	align-items: center;
-}
+}*/
 
 .list {
 	display: flex;
@@ -73,6 +85,7 @@ section {
 
 .list section img {
 	display: none; /* smaller viewports only */
+	align-items: center;
 }
 
 section h3 {
@@ -85,9 +98,30 @@ section a {
 }
 
 img {
-	height: 75px;
-	max-width: 100%; /* Images are jerks - Seattle*/
+	padding: 1rem;
+	align-content: center;
+	height: 200px;
+	width: auto;
+	max-width: 325px; /* Images are jerks - Seattle*/
 }
+.cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+
+  section{
+  background-color: #bbb;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  footer {
+	background-color: #555;
+	color: white;
+	padding: 20px;
+	text-align: center;
+  }
 
 @media (min-width: 700px) {
 	.list section img {
