@@ -3,7 +3,8 @@ const requestURL =  "http://api.openweathermap.org/data/2.5/forecast?q=detroit&u
 // select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('figcaption');
+const captionDesc = document.querySelector('#descriptionOf');
+const windSpeed = document.querySelector('#windSpeed');
 
 async function apiFetch() {
     try {
@@ -20,9 +21,7 @@ async function apiFetch() {
     }
   }
 
-//   function displayResults(weatherData) {
-//     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-//   }
+
 
 function displayResults(weatherData) {
     //Change where the const are coming from according to the object.
@@ -38,7 +37,7 @@ const windCh = Math.round(35.74 +  (0.6215 * temp) - (35.75 *  Math.pow(windS, 0
 document.getElementById('windChill').innerHTML = windCh;}
 
 
-
+    windSpeed.innerHTML = windS;
     currentTemp.innerHTML = `<strong>${weatherData.list[0].main.temp.toFixed(0)}</strong>`;
 
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.list[0].weather[0].icon}.png`;
