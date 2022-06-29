@@ -23,6 +23,7 @@
     <script src="script/toggleMenu.js" defer></script>
     <script src="script/lastMod.js" defer></script>
     <script src="script/windChill.js" defer></script>
+    <script src="script/weatherapi.js" defer></script>
     
 
 </head>
@@ -62,8 +63,9 @@
                 <button id="hamburgerBtn">&#9776;</button>
                 <ul id="primaryNav">
                     <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Discover</a></li>
+                    <li><a href="https://dioncoevans.github.io/wdd230/chamber/Discover.html">Discover</a></li>
                     <li><a href="#">Join</a></li>
+                    <li><a href="#">Directory</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
@@ -101,12 +103,12 @@
         </article>
         <div class="placeholder-box" id="weather">
             <h2>Weather</h2>
-            <img id="weather-icon" src="" alt="">
+            <img id="weather-icon" src="..chamber/images/weather_ios" alt="">
             <p>The current temperature in Detroit, Michigan is <strong><span id="current-temp"></span> &deg;F</p></strong>
-            <h2><span id="descriptionOf"></span></h2>
+            <p><span id="descriptionOf"></span></p>
             <hr>
-            <h2>Wind Speed: <span id="windSpeed">10.2</span> mp/h</h2>
-            <h2>Wind Chill: <span id="windChill"></span></h2>
+            <p>Wind Speed: <span id="windSpeed">10.2</span> mp/h</p>
+            <p>Wind Chill: <span id="windChill"></span></p>
             <!--2 cols 5 rows, Spans with ID for degrees and windspeed-->
         </div>
         <div class="placeholder-box" id="news">
