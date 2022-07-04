@@ -6,23 +6,24 @@ async function getBusiness() {
     if (response.ok) {
       let data = await response.json();
       console.log(data);
-      //console.log(data.prophets);
-     // buildBusinessCards(data.business);
+      //console.log(data.business);
+      buildBusinessCards(data.business);
     } else {
        throw Error(response.statusText);
      }
   }
 getBusiness();
 
-function buildCompanyCards(data) {
+function buildBusinessCards(data) {
   data.forEach((business) => {
     let card = document.createElement("section");
     let h2 = document.createElement("h2");
     let address = document.createElement("p");
     let websiteurl = document.createElement("p");
+    let phonenumber = document.createElement("p");
     let img = document.createElement("img");
 
-    h2.innerHTML = `${business.name} ${business.phonenumber}`;
+    h2.innerHTML = `${business.name} `;
     address.innerHTML = `Address: ${business.address}.`;
     phonenumber.innerHTML = `Phone number: ${business.phonenumber}.`;
     websiteurl.innerHTML = `Website: ${business.websiteurl}.`;
@@ -35,9 +36,9 @@ function buildCompanyCards(data) {
     img.setAttribute("loading", "lazy");
 
     card.append(h2);
-    card.append(address);
     card.append(phonenumber);
     card.append(img);
+    card.append(address);
     cards.append(card);
   });
 }
