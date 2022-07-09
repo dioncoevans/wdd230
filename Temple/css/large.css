@@ -1,0 +1,30 @@
+/*change min-width slight bigger for each (medium and large)*/
+/*@media screen and (min-width: 768px)*/
+@media screen and (min-width: 868px){
+  
+    .spot3{
+      display: block;
+  }
+  
+  nav ul li a{
+    padding: .5rem 1rem;
+  }
+  
+  nav button{display: none;}
+  nav ul#primaryNav{
+    display: flex;
+    margin-left: 2vw;
+    border-left: 1px solid rgba(61, 108, 141, 0.5);
+  }
+  
+  main{
+    display: grid;
+    grid-template-areas:
+      
+      'event hero hero hero hero spotlightBox'
+      'weather hero hero hero hero spotlightBox'
+      'join news news news news spotlightBox';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }

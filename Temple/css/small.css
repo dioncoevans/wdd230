@@ -43,8 +43,6 @@ display: grid;
     margin: 0 auto;
     background-color: var(--headline-color-on-color);
     padding: 1em;
-    justify-content: center;
-    align-items: center;
   }
   
   
@@ -54,22 +52,7 @@ display: grid;
     background-color: var(--footer-background-color);; 
   
   }
-  
-  
-  h1{
-      color: #396E94;
-      margin-left: 5px;
-      
-  }
 
-  h2{
-    font-size: large;
-    color: #6c91bf;
-    padding: 0px;
-    margin-top: 5px;
-  }
- 
-  
   header{
     align-items: center;
     display: grid;
@@ -130,6 +113,19 @@ display: grid;
       margin: 15px;
   }
 
+  h1{
+    color: #396E94;
+    margin-left: 5px;
+    
+}
+
+h2{
+  font-size: large;
+  color: #6c91bf;
+  padding: 0px;
+  margin-top: 5px;
+}
+
   
   .social
   {
@@ -139,7 +135,6 @@ display: grid;
       fill: #396E94;
       margin-left: 10px;
   }
-  
 
   h3{
     grid-column: 1/6;
@@ -229,7 +224,10 @@ display: grid;
     transition: filter 0.5s;
   }
 
-  
+  body{
+    justify-content: center;
+    align-items: center;
+  }
 
   .norm:hover {box-shadow: 0 0 50px #333;}
 /* rounded corners - boxmodel */
