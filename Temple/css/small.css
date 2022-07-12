@@ -57,8 +57,8 @@ display: grid;
     align-items: center;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    grid-template-rows: 150px 150px;
-    background:  #22333b;
+    grid-template-rows: 100px;
+    background:  #ffffff;
     border-bottom: 5px double;
     border-color: #6c91bf;
   } 
@@ -115,8 +115,7 @@ display: grid;
 
   h1{
     color: #396E94;
-    margin-left: 5px;
-    
+    margin-left: 5px;    
 }
 
 h2{

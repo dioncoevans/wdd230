@@ -1,6 +1,4 @@
-const requestURL =  "https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=94.04&exclude=minutely,hourly&appid=7255f502d83749f001f25d02cb93c567"
-// "http://api.openweathermap.org/data/2.5/forecast?q=detroit&units=imperial&appid=7255f502d83749f001f25d02cb93c567"
-
+const requestURL= "https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=94.04&exclude=minutely,hourly&appid=7255f502d83749f001f25d02cb93c567"
 // select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
