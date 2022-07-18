@@ -1,15 +1,15 @@
 {
-    "temples": [
+    "temple": [
       {
         "name": "Columbia South Carolina Temple",
-        "address": "Smith",
-        "phone": "23 December 1805",
-        "email": "27 June 1844",
-        "services": 14,
-        "history": 1,
-        "ordinance schedule": "Vermont",
-        "temple closure schedule": 11,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "address": "2905 Trotter Rd. Hopkins, SC 29061-9573 United States",
+        "phone": "(1)803-647-9472",
+        "email": "Log in to send email to temple",
+        "services": "No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+        "history": "11 September 1998 Announced, 5 December 1998 Groundbreaking, 16 October 1999 Dedicated — dedicatory prayer",
+        "ordinance schedule": "6:00PM - 8:00PM",
+        "temple closure schedule": "2022 Monday, 11 July 2022 - Monday, 25 July 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 Thursday, 24 November 2022 Saturday, 24 December 2022 Saturday, 31 December 2022 2023 Monday, 9 January 2023 - Monday, 23 January 2023",
+        "imageurl": "https://assets.ldscdn.org/73/98/73985db1dc36840c3880a2f26ea4f29890a46d34/columbia_temple_lds.jpeg"
       },
       {
         "name": "Columbia South Carolina Temple",

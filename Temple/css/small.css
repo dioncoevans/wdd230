@@ -98,6 +98,11 @@ display: grid;
     background-color:  rgba(61, 108, 141, 0.2);
     color: #fffffF;
   }
+  
+  #primaryNav{
+
+    text-align : center;
+  }
 
   nav ul li a:hover{
     background-color: rgba(61, 108, 141, 0.5);
@@ -187,6 +192,8 @@ h2{
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin: 0px;
+    padding:10px;
     }
   
     section{
