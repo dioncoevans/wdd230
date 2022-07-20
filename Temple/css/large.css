@@ -1,6 +1,9 @@
 /*change min-width slight bigger for each (medium and large)*/
 /*@media screen and (min-width: 768px)*/
+
 @media screen and (min-width: 868px){
+
+    
   
     .spot3{
       display: block;
@@ -16,13 +19,18 @@
     margin-left: 2vw;
     border-left: 1px solid rgba(61, 108, 141, 0.5);
   }
-  
+
+  #primaryNav{
+
+    text-align : left;
+    margin-right: 150px;
+  }
   main{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr;
     grid-template-rows: 1fr 2fr 1fr;
     gap: 10px;
-    background-color: #2196F3;
+    background-color: #bbb;
     padding: 10px;
   }
 
@@ -50,6 +58,13 @@
     padding: 10px;
     margin: 10px;
   }
+
+  .social{
+    margin-left: 10px;
+    align-content: right;
+    padding: 10px;
+  }
+
   img{
     box-shadow: 10px;
   }
@@ -209,7 +224,18 @@ tr:nth-child(3) {
     100% {
         opacity: 1;
     }
-}
+
+    home-banner-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 20px auto;
+        max-width: 960px;
+             
+      }
+
+      
+      
+    }
 
 
 }

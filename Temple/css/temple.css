@@ -33,12 +33,13 @@ section {
 section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #ccc;
+	background-color: #bbb;
 	align-items: center;
 }
 
 h1{
-  background-color: #555;
+	display: none;
+  background-color: #bbb; 
   color: white;
   padding: 20px;
   text-align: center;
@@ -48,11 +49,11 @@ h1{
 	text-align: center;
 }
 
-/*.grid {
+.grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	align-items: center;
-}*/
+}
 
 .list {
 	display: flex;
@@ -117,7 +118,7 @@ img {
   align-items: center;
   }
   footer {
-	background-color: #555;
+	background-color: #fff;
 	color: white;
 	padding: 20px;
 	text-align: center;

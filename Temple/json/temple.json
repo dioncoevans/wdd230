@@ -1,15 +1,15 @@
 {
     "temple": [
       {
-        "name": "Columbia South Carolina Temple",
-        "address": "2905 Trotter Rd. Hopkins, SC 29061-9573 United States",
-        "phone": "(1)803-647-9472",
+        "name": "Oakland California Temple",
+        "address": "4770 Lincoln Ave Oakland CA 94602-2535 United States",
+        "phone": "(1) 510-531-3200",
         "email": "Log in to send email to temple",
         "services": "No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
-        "history": "11 September 1998 Announced, 5 December 1998 Groundbreaking, 16 October 1999 Dedicated — dedicatory prayer",
+        "history": "23 January 1961Announced 26 May 1962Groundbreaking 17 November 1964Dedicated — dedicatory prayer 16 June 2019Rededicated — dedicatory prayer",
         "ordinance schedule": "6:00PM - 8:00PM",
         "temple closure schedule": "2022 Monday, 11 July 2022 - Monday, 25 July 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 Thursday, 24 November 2022 Saturday, 24 December 2022 Saturday, 31 December 2022 2023 Monday, 9 January 2023 - Monday, 23 January 2023",
-        "imageurl": "https://assets.ldscdn.org/73/98/73985db1dc36840c3880a2f26ea4f29890a46d34/columbia_temple_lds.jpeg"
+        "imageurl": "https://assets.ldscdn.org/c7/31/c731edc1ad5337acc342f226ddf3163b74113564/oakland_california_temple_exterior.jpeg"
       },
       {
         "name": "Columbia South Carolina Temple",
@@ -54,6 +54,18 @@
         "ordinance schedule": "6:00AM - 8:00PM",
         "temple closure schedule": "2022 Saturday, 23 July 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 - Thursday, 24 November 2022 Saturday, 24 December 2022 Saturday, 31 December 2022; 2023 Saturday, 1 April 2023 Tuesday, 4 July 2023 Saturday, 22 July 2023 Monday, 28 August 2023 - Monday, 11 September 2023 Saturday, 7 October 2023 Thursday, 23 November 2023 - Friday, 24 November 2023 Tuesday, 26 December 2023",
         "imageurl": "https://assets.ldscdn.org/29/8a/298a8b01fbc736923e83e7c748e60abcad8511c9/rexburg_idaho_temple.jpeg"
+      },
+      {
+        "name": "Oakland California Temple",
+        "address": "4770 Lincoln Ave Oakland CA 94602-2535 United States",
+        "phone": "(1) 510-531-3200",
+        "email": "Log in to send email to temple",
+        "services": "No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+        "history": "23 January 1961Announced 26 May 1962Groundbreaking 17 November 1964Dedicated — dedicatory prayer 16 June 2019Rededicated — dedicatory prayer",
+        "ordinance schedule": "6:00PM - 8:00PM",
+        "temple closure schedule": "2022 Monday, 11 July 2022 - Monday, 25 July 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 Thursday, 24 November 2022 Saturday, 24 December 2022 Saturday, 31 December 2022 2023 Monday, 9 January 2023 - Monday, 23 January 2023",
+        "imageurl": "https://assets.ldscdn.org/c7/31/c731edc1ad5337acc342f226ddf3163b74113564/oakland_california_temple_exterior.jpeg"
       }
+
     ]
   }
